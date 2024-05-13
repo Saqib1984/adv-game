@@ -31,6 +31,7 @@ class Player2Enemy {
         this.energy = 100
     }
 }
+console.log(chalk.red.bold("Street Fighter II"))
 // step 2 player 1 object
 async function main() {
     const {player1Name} = await inquirer.prompt([{
